@@ -1,6 +1,8 @@
 ***
 priority queue
 
+//max heap
+
 This context is similar to a heap, where elements can be inserted at any moment, and only the max heap element can be retrieved
 ***
 
