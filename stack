@@ -1,0 +1,34 @@
+***
+LIFO
+***
+
+CODE:
+#include <iostream>
+#include<stack>
+using namespace std;
+
+int main()
+{
+    stack<int> s1;
+    s1.push(0);
+    s1.push(2);
+    s1.push(5);
+    s1.push(8);
+    s1.push(10);
+    cout<<s1.size()<<endl;
+    cout<<"is empty?: ";
+    cout<<s1.empty()<<endl;
+    cout<<s1.top()<<endl;
+    s1.pop();
+    cout<<s1.top()<<endl;
+    return 0;
+}
+
+
+OUTPUT:
+
+5
+is empty?: 0
+10
+8
+
